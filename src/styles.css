@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+}
+
+#header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+table {
+  border-collapse: collapse;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: "#116bf2";
+  text-decoration: none;
+}
+
+td {
+  padding: 5px;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.section-row {
+  display: flex;
+}
+
+.nav-item:focus-visible {
+  border-bottom: 2px solid red;
+}
+
+#pagination-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+}
+
+#pagination-container > button {
+  background-color: "#0E71EB";
+  padding: 5px 10px;
+}
+
+#count {
+  margin: 0 10px;
+}
+
+.section-row {
+  margin: 5px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-right: 15px;
+}
